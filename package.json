@@ -1,0 +1,30 @@
+{
+  "name": "mobile-first-profile-card",
+  "version": "1.0.0",
+  "description": "A mobile-first, responsible profile card",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w",
+    "start": "webpack serve --open --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksyksy815/Mobile-First-Profile-Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksyksy815/Mobile-First-Profile-Card/issues"
+  },
+  "homepage": "https://github.com/ksyksy815/Mobile-First-Profile-Card#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.1"
+  }
+}
